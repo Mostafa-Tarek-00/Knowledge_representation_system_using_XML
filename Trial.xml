@@ -1,0 +1,12 @@
+<?xml version ="1.0"?>
+<States>
+    <state name ="nitrogen deficiency">
+        <neighbor leaf_color ="yellow" leaf_shape="none" stem_shape ="thin" stem_color="none" spike_statues ="dead"/>
+    </state>
+    <state name ="leaf rust">
+        <neighbor leaf_color ="none" leaf_shape="wilted" stem_shape ="none" stem_color="red" spike_statues ="empty"/>
+    </state>
+    <state name ="all true">
+        <neighbor leaf_color ="white" leaf_shape="none" stem_shape ="none" stem_color="white" spike_statues ="none"/>
+    </state>
+</States>
